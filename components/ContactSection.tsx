@@ -221,13 +221,9 @@ const ContactSection = () => {
         </svg>
       </a>
     </motion.div>
+    
   ))}
-</div>
-
-
-
-
-            <motion.div
+  <motion.div
               className="mt-8 p-6 bg-gray-50 rounded-2xl"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -241,6 +237,12 @@ const ContactSection = () => {
                 Available for freelance projects and full-time opportunities
               </p>
             </motion.div>
+</div>
+
+
+
+
+            
 
           
         </div>
